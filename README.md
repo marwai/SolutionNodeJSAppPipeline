@@ -33,12 +33,12 @@
 #### Similarly to the CI job, CD is created, create an appropriate name such as ```name deploy job```
 
 #### The major difference between this and the CI is the execute command shell, please insert the following: 
-![7th step](images/7th step.png)
+![7th_step](images/7th step.png)
 
 #### Again, build on the __CI JOB__ this will automatically pass the build to this CD job if succesful
-![8th step](images/8th step.png)
+![8th_step](images/8th step.png)
 
-![9th step](images/9th step.png)
+![9th_step](images/9th step.png)
 
 
 
