@@ -4,18 +4,18 @@
 
 
 ### First create a Webook for a repository. Go into the Repo settings > Webhooks > add Webhook
-![1st step](images/1st step.png)
+![1st step](images/1st%20step.png)
 ### Then add the payload URL, use the webapp URL:
 ```http://18.132.46.105:8080/github-webhook/```
 
 
 
-![2nd step](images/2nd step.png)
+![2nd step](images/2nd%20step.png)
 
 ## Continues Integration 
 
 ### 1) First click on the ```new item``` as seen below 
-![3rd step](images/3rd step.png)
+![3rd step](images/3rd%20step.png)
 
 ### 2) Enter the name of the project and select the Freestyle project type
 ![4th step](images/4th step.png)
