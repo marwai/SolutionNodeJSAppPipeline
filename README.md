@@ -1,9 +1,19 @@
 # NodeJs Sample Webapp Engineering 67 :taco:
 
-# Creating CI/CD Pipeline
+Before Jenkins| After Jenkins 
+-----|------
+Developers complete assignments, commit code at same time. Later, build is tested and deployed| Code is built and tested as soon as Developer commits code. Jenkins builds and tests code many times during the day. If the build is successful, Jenkins will deploy the source into the test server and notifies the deployment team. If build fails, Jenkins will notify the errors to the developer team.
+Developers wait until other developers finish coding to check their build.| The code is built immediately after any of the Developer commits
+Difficult to isolate, detect, fix errors for multiple commits| Code is built after each commit of a single developer, easy to detect whose code caused built to fail.
+Code build and test process are manual| Automated build and test process, saving time and reducing defects
+Code is deployed once all errors are fixed and tested|Code is deployed after every successful build and test
+Dev Cycle is slow| The dev cycle is fast. New Features are more readily available to users. Increase in profit. 
 
 
-### First create a Webook for a repository. Go into the Repo settings > Webhooks > add Webhook
+## Creating CI/CD Pipeline
+
+- First create a Webook for a repository. Go into the Repo settings > Webhooks > add Webhook
+
 ![1st step](images/1st%20step.png)
 ### Then add the payload URL, use the webapp URL:
 ```http://18.132.46.105:8080/github-webhook/```
