@@ -24,21 +24,21 @@
 
 ### 4) Next, test the build by clicking build now. The build will appear in build history. The build is started when you 
 ```git push``` to Github 
-![5th step](images/5th step.png)
+![5th step](images/5th%20step.png)
 
 ### 5) If the build is successful, there should be 3 passes! Any errors can be found in the console output
-![6th step](images/6th step.png)
+![6th step](images/6th%20step.png)
 
 ### Continuos Deployment (CD) 
 #### Similarly to the CI job, CD is created, create an appropriate name such as ```name deploy job```
 
 #### The major difference between this and the CI is the execute command shell, please insert the following: 
-![7th_step](images/7th step.png)
+![7th_step](images/7th%20step.png)
 
 #### Again, build on the __CI JOB__ this will automatically pass the build to this CD job if succesful
-![8th_step](images/8th step.png)
+![8th_step](images/8th%20step.png)
 
-![9th_step](images/9th step.png)
+![9th_step](images/9th%20step.png)
 
 
 
