@@ -18,7 +18,7 @@
 ![3rd step](images/3rd%20step.png)
 
 ### 2) Enter the name of the project and select the Freestyle project type
-![4th step](images/4th step.png)
+![4th step](images/4th%20step.png)
 
 ### 3) Enter the configurations 
 
